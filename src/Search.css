@@ -7,13 +7,15 @@
 .container {
 	margin: 36px auto;
 	width: 100%;
-	max-width: 800px;
+	max-width: 1000px;
+	/* background:white; */
+	padding: 5%;
 }
 .searchField{
 	position: relative;
 }.container input {
 	width: 95%;
-	padding: 10px;
+	padding: 3%;
 	font-size: 20px;
 	font-style: italic;
 	color: #444;
@@ -25,3 +27,61 @@
 	color: #555;
 	width:5%;
 }
+
+.inputUI{
+	width: 95%;
+	display: inline-block;
+
+
+}
+
+
+.iconUI{
+	width: 5%;
+    display: inline-block;
+    height: 10px;
+    vertical-align: text-bottom;
+
+
+}
+
+.SearchInput{
+	width: 100%;
+	/* background:white; */
+}
+.containerLists{
+	display: flex;
+}
+.result-container{
+	margin: 5% 2%;
+	min-height: 400px;
+	padding:2% 5%;
+	box-shadow: 2px 2px #b8b894;
+	background:white;
+	border-radius:1%;	
+	width:50%;
+	text-align: left;
+	/* display: inline-block; */
+	
+  }
+
+  .CardBase{
+	  background:#e6e6ff;
+	  width: 60%;
+	  padding: 5%;
+	  margin: 2%;
+	  border: 5px solid #341056;
+	  border-radius: 5%;
+  }
+
+  .textCard{
+	  width:60%;
+	  text-align: left;
+	  display: inline-block;
+
+  }
+
+  .buttonsCard{
+	  width:40%;
+	  display: inline-block;
+  }

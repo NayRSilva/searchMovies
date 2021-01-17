@@ -7,9 +7,7 @@
   pointer-events: none;
 }
 
-.result-container{
-  width:50%;
-}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
