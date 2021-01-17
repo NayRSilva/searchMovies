@@ -165,9 +165,9 @@ class Search extends React.Component {
 
 
                     </label>
-                    <div class="iconUI">
+                    {/* <div class="iconUI">
                             <i className="fa fa-search search-icon" />
-                        </div>
+                        </div> */}
                 </div>
 
 
